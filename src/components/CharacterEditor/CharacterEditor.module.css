@@ -3,10 +3,21 @@
   padding-bottom: 64px;
 }
 
+.perspectiveBar {
+  background-color: hsl(195deg, 20%, 86%);
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+}
+
 .maxWidthWrapper {
+  max-width: 65%;
+  position: relative;
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +35,13 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  left: 60%;
+  top: 10%;
+  bottom: 5%;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
